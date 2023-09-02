@@ -1,0 +1,6 @@
+_site/
+.sass-cache/
+_drafts.idea
+**/themes/
+*.lock
+public
