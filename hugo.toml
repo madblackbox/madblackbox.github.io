@@ -1,0 +1,57 @@
+baseURL = 'https://madblackbox.com'
+languageCode = 'en-us'
+defaultcontentlanguage = "en"
+title = 'madblackbox.com'
+theme = "hugo-coder"
+paginate = 20
+disqusShortname = "madblackbox"
+googleAnalytics = 'G-1WWTFYJ380'
+
+[params]
+  author = "madblackbox"
+  description = "Personal yet publically available wiki blog."
+  keywords = "blog,devops,sysops,cloud"
+  avatarurl = "images/madbox.svg"
+
+  faviconSVG = "/favicons/favicon.svg"
+  favicon_32 = "/favicons/favicon-32x32.png"
+  favicon_16 = "/favicons/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = false
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+
+[markup.highlight]
+  style = "github-dark"
+  
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:madblackbox@proton.me"
