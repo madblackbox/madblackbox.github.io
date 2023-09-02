@@ -63,6 +63,7 @@ Host github-mbbx # we will use that name for git remote
     Hostname github.com
     User git
     IdentityFile  ~/.ssh/id_mbbx_25519 # path to your non-default user's SSH private key
+    IdentitiesOnly=yes
 ```
 
 ***Configuring remotes***
